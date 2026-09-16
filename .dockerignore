@@ -1,0 +1,70 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Build output
+dist
+build
+coverage
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# GitHub
+.github
+
+# IDEs
+.idea
+.vscode
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage
+.nyc_output
+
+# NestJS
+dist
+
+# Docker
+Dockerfile*
+docker-compose*.yml
+
+# Documentation
+*.md
+!README.md
+
+# Temporary files
+tmp
+temp
+.cache
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+infrastructure/dev/.env
+infrastructure/prod/.env
+
+# Keep examples
+!.env.example
+!infrastructure/dev/.env.example
+!infrastructure/prod/.env.example
